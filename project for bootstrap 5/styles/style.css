@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500&display=swap');
+body {
+	font-family: 'Poppins', sans-serif;
+	}
+.container  {
+	max-width: 1110px;
+}
+
+.title-h1 {
+	font-size: 52px;
+}
+
+.shop-img {
+	height: 357px;
+	position: relative;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+.shop-img01 {
+	background-image: url(../images/img.png);
+}
+.shop-img02 {
+background-image: url(../images/img2.png);
+}
+.shop-img03 {
+	background-image: url(../images/img3.png);
+}
+.sale {
+	font-family: 'Rubik', sans-serif;
+	background-color:  #083C6E;
+	color: #fff;
+	font-size: 14px;
+	text-transform: uppercase;
+	padding: 6px 23px 5px;
+	position: absolute;
+	top: 13px;
+	left: 13px;
+
+	
+}
+.no-sale {
+visibility: hidden;
+}
+.text-info {
+	position: absolute;
+	bottom: 0;
+	left: .75rem;
+	right: 0;
+	width: 100%;
+	background-color: #083C6E;
+	padding-top: 8px;
+	padding-bottom: 8px;
+
+}
+.text-info .col-4{
+	text-align: center;
+
+}
+.text-info h3 {
+	font-size: 20px;
+	color: #fff;
+	margin-bottom: 0;
+}
+.text-info p {
+	font-size: 18px;
+	color: #fff;
+	border: 1.5px solid white;
+	border-radius: 5px;
+	padding: 5px 16px;
+	margin-bottom: 0;
+}
+
